@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+
+# IDE
+.vscode/
+.idea/
+
+# Roku build artifacts
+.roku-deploy-staging/
+roku-deploy.zip
+out/
+
+# Node (if any tooling is added)
+node_modules/
+
+# Temporary files
+~$*
+*.tmp
