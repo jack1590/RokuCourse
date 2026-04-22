@@ -6,6 +6,9 @@
 .vscode/
 .idea/
 
+# Environment / secrets
+.env
+
 # Roku build artifacts
 .roku-deploy-staging/
 roku-deploy.zip

@@ -1,18 +1,17 @@
 # Roku BrightScript Crash Course
 
-Source code and project files for the **Roku BrightScript Crash Course**. Each section folder contains the complete channel projects built throughout the course, so you can follow along or use them as reference.
+Source code and project files for the **Roku BrightScript Crash Course**. Each section folder contains the channel projects built throughout the course, organized by lecture so you can follow along step by step.
 
 ## Repository Structure
 
 ```
 RokuCourse/
-├── Section-1/          # Introduction & Setup
-│   └── HelloWorld/     # Your first Roku channel
-├── Section-2/          # (coming soon)
-└── ...
+└── Section-1/                    # Introduction & Setup
+    ├── 1-3-HelloWorld/           # Lecture 1.3 — Dev Environment Setup
+    └── 1-5-HelloWorld/           # Lecture 1.5 — Understanding Roku Resolutions
 ```
 
-Each section folder maps to a course section and contains one or more Roku channel projects ready to sideload onto your device.
+Project folders are named `<lecture>-<project>` so you can check out the exact state of the code at each point in the course.
 
 ## Prerequisites
 
@@ -28,17 +27,20 @@ Each section folder maps to a course section and contains one or more Roku chann
    git clone https://github.com/jack1590/RokuCourse.git
    ```
 
-2. Open any project folder in VS Code (e.g. `Section-1/HelloWorld/`).
+2. Open any project folder in VS Code (e.g. `Section-1/1-3-HelloWorld/`).
 
 3. Press **F5** to launch the BrightScript debugger — it will prompt you for your Roku device IP and developer password.
 
-## Project Overview
+## Course Content
 
-| Section | Project | Description |
-|---------|---------|-------------|
-| 1 | **HelloWorld** | Minimal Roku channel — covers project structure, manifest, SceneGraph basics, and sideloading |
+### Section 1 — Introduction & Setup
 
-> More sections and projects will be added as the course progresses.
+| Lecture | Project | What You Build |
+|---------|---------|----------------|
+| 1.3 — Dev Environment Setup | `1-3-HelloWorld` | Minimal Roku channel — project structure, manifest, SceneGraph basics, sideloading |
+| 1.5 — Understanding Roku Resolutions | `1-5-HelloWorld` | Adds FHD/HD/SD resolution support with `ui_resolutions`, `uri_resolution_autosub`, and `$$RES$$` image paths |
+
+> More sections will be added as the course progresses.
 
 ## Roku Channel Project Structure
 
